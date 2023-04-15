@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SFX_Skill
+  m_EditorClassIdentifier: 
+  m_GroupName: SFX_Skill
+  m_Data:
+    m_SerializedData: []
+  m_GUID: bfb585b7bde0e5441bbc563cc4350fc2
+  m_SerializeEntries:
+  - m_GUID: faba075399b4e3944a2c3db798ed3d4d
+    m_Address: Assets/Sounds/SkillEffect_BloodField.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f489ef33893887c4d9ac1eb5a4b5df44
+    m_Address: Assets/Sounds/SkillEffect_IceField.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bdaf1364bab112a48bb7d4dee3ee99fd
+    m_Address: Assets/Sounds/SkillEffect_Nuke.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: afe031baefe5918488e5216471fb655f
+    m_Address: Assets/Sounds/SkillEffect/SkillEffect_DangerClose.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: efe3cc5201d0de446a7552235d41ed93
+    m_Address: Assets/Sounds/SkillEffect/SkillEffect_Blackhole.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 350b05b422999834eb75fcdb83d3a569, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f8af13c5f13deed4d96f9acc53e4516e, type: 2}
+    - {fileID: 11400000, guid: d7890de3d92e2f449bb0ac349ab5acf8, type: 2}

@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Sprites
+  m_EditorClassIdentifier: 
+  m_GroupName: Sprites
+  m_Data:
+    m_SerializedData: []
+  m_GUID: fbbab43a42f9018419d5539da30a151d
+  m_SerializeEntries:
+  - m_GUID: c44740d31f8269f45ba4b63376df893e
+    m_Address: Assets/Graphics/Sprites/Sprite_AttackRate.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d51c64693f0f0194d89990472c1635f1
+    m_Address: Assets/Graphics/Sprites/Sprite_Bow.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f7d2912b5834ec34f861913b0b829e7b
+    m_Address: Assets/Graphics/Sprites/Sprite_Button_dark.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f15fea012aaba344abb150896e3b97ad
+    m_Address: Assets/Graphics/Sprites/Sprite_Critical.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 24eb47eb2b6568546bb92d03fd545410
+    m_Address: Assets/Graphics/Sprites/Sprite_CriticalMultiplier.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0a830e266f674e94a8bbb8846a7a8c23
+    m_Address: Assets/Graphics/Sprites/Sprite_Damage.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c737fc49861212b40bc88eb236ccb832
+    m_Address: Assets/Graphics/Sprites/Sprite_Fight.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 489b59b3575076740acd05c616dcecd8
+    m_Address: Assets/Graphics/Sprites/Sprite_Gems.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7598d45a2b8b862429e63b30e9a5af0f
+    m_Address: Assets/Graphics/Sprites/Sprite_Heart.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d4ce35be61a63df4e8d7c729d315e1be
+    m_Address: Assets/Graphics/Sprites/Sprite_Hourglass.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b21243358e12e9e4598af7201b067126
+    m_Address: Assets/Graphics/Sprites/Sprite_IntroBG.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fe778117f3dd46a4db51f936adc55f17
+    m_Address: Assets/Graphics/Sprites/Sprite_Penetrate.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 209287be446364a48a6498f1d126d2af
+    m_Address: Assets/Graphics/Sprites/Sprite_Question.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eba80a955255c4148a72828dcb4fb116
+    m_Address: Assets/Graphics/Sprites/Sprite_Reinforce.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 127860c25645f6f4ea49ece79b064379
+    m_Address: Assets/Graphics/Sprites/Sprite_Reroll.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9d737a1f338acaa439ab308c47d01585
+    m_Address: Assets/Graphics/Sprites/Sprite_Rune.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ca91846fc86b96a478ab698e81714671
+    m_Address: Assets/Graphics/Sprites/Sprite_RuneStone.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0adf6786acacb5c4cadb7edf3f7c7287
+    m_Address: Assets/Graphics/Sprites/Sprite_Settings.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 785be4bdcceb537449266414afe28d9d
+    m_Address: Assets/Graphics/Sprites/Sprite_Shield.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ce224f4a638ffdd4ea6e971edc840be9
+    m_Address: Assets/Graphics/Sprites/Sprite_SimpeSquare.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dd547944700563e45a8534b54df6df77
+    m_Address: Assets/Graphics/Sprites/Sprite_Skill_BlooldFlood.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0358985829b574b41a49d0ff3ad1c857
+    m_Address: Assets/Graphics/Sprites/Sprite_Skill_IceField.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9327f66023617a042887283d1b849e50
+    m_Address: Assets/Graphics/Sprites/Sprite_Skill_Nuke.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3608353e863906c4ca480cc5b551afb1
+    m_Address: Assets/Graphics/Sprites/Sprite_SkillChance.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a3730998fdb79641a49e4b7dca10e86
+    m_Address: Assets/Graphics/Sprites/Sprite_SkillDamage.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d4e96f84f75e7384b8bcfd13df005b6d
+    m_Address: Assets/Graphics/Sprites/Sprite_SkillRange.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 010f964e51ebe2449be07aa62f8bda50
+    m_Address: Assets/Graphics/Sprites/Sprite_Skull.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 15c67adc45496ba49b1f71bf0c8ec96e
+    m_Address: Assets/Graphics/Sprites/Sprite_SquareFrame.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 400bd9e11195b47469f73105361849fd
+    m_Address: Assets/Graphics/Sprites/Sprite_Staff.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 21c13380e8c10a444acfa544bb6c053e
+    m_Address: Assets/Graphics/Sprites/Sprite_Strike.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1b2aa32283b17254493843baed54e3cd
+    m_Address: Assets/Graphics/Sprites/Sprite_Sword.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6e25883347fa9a94e9bb4ce662057920
+    m_Address: Assets/Graphics/Sprites/Sprite_TileBG.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a41d97d99af9c5a4ca39789cbd4dc364
+    m_Address: Assets/Graphics/Sprites/Sprtie_MainBar.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0b9a9a373788e8f4c86d7c0b5494acc0
+    m_Address: Assets/Graphics/Sprites/Sprite_Bag.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 97dec02a576901147bce0fe8a58d2ad7
+    m_Address: Assets/Graphics/Sprites/Sprite_Coin.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1add600db61de40428ad1cd89dcf442c
+    m_Address: Assets/Graphics/Sprites/Sprite_Dest.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e7ad8e0c685f8534bb507927510a5bfb
+    m_Address: Assets/Graphics/Sprites/Skill/Sprite_Skill_DangerClose.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8103d1a6a8e11444da1e14886a7d60d2
+    m_Address: Assets/Graphics/Sprites/Skill/Sprite_Skilll_Blackhole.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0fdf5cfa3a4ca1c4b952fa3f55efaa4c
+    m_Address: Assets/Graphics/Sprites/Sprite_Search.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 08b5de8ae6511874f86531b3cadccad3
+    m_Address: Assets/Graphics/Sprites/Skill/Sprite_Skill_PoisonExplosion.jpg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 350b05b422999834eb75fcdb83d3a569, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 55a1bdc04f3e6b04c8c89b6982beef1b, type: 2}
+    - {fileID: 11400000, guid: 1630759b76c4f8143ae46849e4ac3e6d, type: 2}

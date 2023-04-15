@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SO_Skill
+  m_EditorClassIdentifier: 
+  m_GroupName: SO_Skill
+  m_Data:
+    m_SerializedData: []
+  m_GUID: c2f217af2f79d7f42859b43a8eec99b8
+  m_SerializeEntries:
+  - m_GUID: 18a484562b26f4745b10d08444d9018c
+    m_Address: Assets/ScriptableObject/SkillData/BloodFlood.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 012503bd36e8fc2448241010e48734a6
+    m_Address: Assets/ScriptableObject/SkillData/IceField.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d1cc79f9e407e7e4badd28aaec6a47b1
+    m_Address: Assets/ScriptableObject/SkillData/Nuke.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c4207ba7ef889d141b49710aa03b989e
+    m_Address: Assets/ScriptableObject/SkillData/DangerClose.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: af633e4bb8f88c84d98fad1817bad822
+    m_Address: Assets/ScriptableObject/SkillData/Blackhole.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 350b05b422999834eb75fcdb83d3a569, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3624606a82ac6cc41a0de802bf96f9b2, type: 2}
+    - {fileID: 11400000, guid: 2a57483866bd3cc45b88176e2566dafa, type: 2}

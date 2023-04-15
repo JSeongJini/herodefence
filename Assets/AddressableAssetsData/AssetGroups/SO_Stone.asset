@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SO_Stone
+  m_EditorClassIdentifier: 
+  m_GroupName: SO_Stone
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5a55050eb736d9849b4ada89ab77e869
+  m_SerializeEntries:
+  - m_GUID: 57c39823656e02147a80f834e0a8d7bb
+    m_Address: Assets/ScriptableObject/StoneData/Stone_AdditionalSkillChance.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d389871d1852d76479bc4d60bf40519b
+    m_Address: Assets/ScriptableObject/StoneData/Stone_AdditionalSkillDamage.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b9138f8d0b4c4aa458cff2dde4636259
+    m_Address: Assets/ScriptableObject/StoneData/Stone_AdditionalSkillRange.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2d24842a0b6e9f94bb1372e0c409e3ea
+    m_Address: Assets/ScriptableObject/StoneData/Stone_Critical.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 831274e0c80b11848afd757ad275143f
+    m_Address: Assets/ScriptableObject/StoneData/Stone_CriticalMul.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1508e1c3263d955438325c66461b2d89
+    m_Address: Assets/ScriptableObject/StoneData/Stone_Damage.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9369fba606467a64287103e464c8f2f0
+    m_Address: Assets/ScriptableObject/StoneData/Stone_Penetrate.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a77f4068455cb9345b0d932e76a084f1
+    m_Address: Assets/ScriptableObject/StoneData/Stone_Rate.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: df50782a46811f94b910f79912bf657a
+    m_Address: Assets/ScriptableObject/StoneData/Stone_Strike.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 350b05b422999834eb75fcdb83d3a569, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5d0a40f4997fec8429fd551e24c2b123, type: 2}
+    - {fileID: 11400000, guid: 86b4747dc5abccd43ba683da9946a31c, type: 2}

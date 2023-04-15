@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs_UI
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs_UI
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e0afe7b8936498e45b76750d91ace828
+  m_SerializeEntries:
+  - m_GUID: d4d92e0beadeec8418fc09d0d42fd55b
+    m_Address: Dialog/UserNameGetDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 94b90242d1edc804d87729ada52f7d86
+    m_Address: Dialog/ErrorDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 67fb6fc9804ee784f96d293e9323117d
+    m_Address: Dialog/ErrorShowAd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4ceb9a8b16d764641a6f6d46de76c902
+    m_Address: Dialog/CheckApply
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f2a3ff6349867214eacb893341986f4a
+    m_Address: Dialog/EscapeDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a4640b340104fef44baeebc4de94e068
+    m_Address: Dialog/FinalScoreDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fa82c51537bef8a48944ba4f1f59e3e3
+    m_Address: Dialog/RankingDialog
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e9d98620c597e124b8937dcb3e49469e
+    m_Address: WaitProgress
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 350b05b422999834eb75fcdb83d3a569, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 113eb93bb3676ae46a083978853f231b, type: 2}
+    - {fileID: 11400000, guid: b58c14e9ad96e7845a0fdf2c126c0d55, type: 2}

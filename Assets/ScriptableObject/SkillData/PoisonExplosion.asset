@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d80ce226eb80b34e8a16ff38b32b63f, type: 3}
+  m_Name: PoisonExplosion
+  m_EditorClassIdentifier: 
+  id: 5
+  skillName: PoisonExplosion
+  description: "\uACF5\uACA9 \uC2DC <color=green>4%</color> \uD655\uB960\uB85C \uB300\uC0C1\uC744
+    \uB3C5\uC131 \uD3ED\uD0C4\uC744 \uD22C\uCC99\uD558\uC5EC <color=orange>6</color>\uBC94\uC704\uC5D0
+    \uACF5\uACA9\uB825\uC758 <color=red>500%</color>\uC758  \uB370\uBBF8\uC9C0\uB97C
+    \uC785\uD78C\uB2E4.  \uD53C\uD574\uB97C \uC785\uC740 \uB300\uC0C1\uC740  <color=yellow>10\uCD08</color>\uB3D9\uC548
+    \uB9E4\uCD08 <color=red>\uC804\uCCB4 \uCCB4\uB825\uC758 1%</color>\uB9CC\uD07C
+    <color=magenta>\uC911\uB3C5 \uB370\uBBF8\uC9C0</color>\uB97C \uC785\uB294\uB2E4."
+  sprite: {fileID: 21300000, guid: 08b5de8ae6511874f86531b3cadccad3, type: 3}
+  prefab: {fileID: 3599347137907488088, guid: 8ac559de506cd134caf0433e79ec2b47, type: 3}
+  sfx: {fileID: 8300000, guid: 897437b5f02be474f81939bc6ab43b7e, type: 3}
+  chance: 4
+  damageMultiplier: 5
+  radius: 6

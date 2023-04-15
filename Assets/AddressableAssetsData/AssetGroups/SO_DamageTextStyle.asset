@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SO_DamageTextStyle
+  m_EditorClassIdentifier: 
+  m_GroupName: SO_DamageTextStyle
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 11484df3fcdb65c4da3e20384c7f4361
+  m_SerializeEntries:
+  - m_GUID: e4fc34f704629d14a987dc4c19a65632
+    m_Address: DamageTextStyle_NORMAL
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b1af79335cae92e4fba19f33937c9a27
+    m_Address: DamageTextStyle_CRITICAL
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9bc3796d58b272845a9eb3f170d4f2a9
+    m_Address: DamageTextStyle_BLEEDING
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a61ee369eb2df81498107d2dc9590d52
+    m_Address: DamageTextStyle_SKILL
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a3c9859d54a63624eaa9093c80b431ef
+    m_Address: DamageTextStyle_POISON
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 350b05b422999834eb75fcdb83d3a569, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 968c2df089735264b97b526e17444264, type: 2}
+    - {fileID: 11400000, guid: a5b3cc21b1947aa4ab55ec55f1563306, type: 2}

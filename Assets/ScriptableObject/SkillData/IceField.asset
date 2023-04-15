@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d80ce226eb80b34e8a16ff38b32b63f, type: 3}
+  m_Name: IceField
+  m_EditorClassIdentifier: 
+  id: 2
+  skillName: IceField
+  description: "\uACF5\uACA9 \uC2DC <color=green>7.5%</color> \uD655\uB960\uB85C
+    \uB300\uC0C1 \uC8FC\uBCC0\uC5D0 \uC5BC\uC74C\uC9C0\uB300\uB97C \uC0DD\uC131\uD574
+    <color=orange>6</color>\uBC94\uC704\uC5D0 \uACF5\uACA9\uB825\uC758 <color=red>400%</color>\uC758
+    \uB370\uBBF8\uC9C0\uB97C \uC785\uD78C\uB2E4.  \uD53C\uD574\uB97C \uC785\uC740
+    \uB300\uC0C1\uC740 <color=yellow>8\uCD08</color>\uAC04<color=cyan>\uC774\uB3D9\uC18D\uB3C4</color>\uAC00
+    <color=cyan>30%</color>\uB9CC\uD07C \uAC10\uC18C\uD55C\uB2E4."
+  sprite: {fileID: 21300000, guid: 0358985829b574b41a49d0ff3ad1c857, type: 3}
+  prefab: {fileID: 1953203221936208544, guid: 44d5abf0126533744839906ceb26cda2, type: 3}
+  sfx: {fileID: 8300000, guid: f489ef33893887c4d9ac1eb5a4b5df44, type: 3}
+  chance: 7.5
+  damageMultiplier: 4
+  radius: 6

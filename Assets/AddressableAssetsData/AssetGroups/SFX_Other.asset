@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SFX_Other
+  m_EditorClassIdentifier: 
+  m_GroupName: SFX_Other
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d0a1a3270d4645e49beeadc63e6de434
+  m_SerializeEntries:
+  - m_GUID: 551bb4e4975b04344bf2b6801f52d6a9
+    m_Address: Assets/Sounds/BossAlert.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1ff09f83d955c634c95b93884bd36723
+    m_Address: Assets/Sounds/Reinforce_Success.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1fd39095736ae7e419a2d1adade18a4c
+    m_Address: Assets/Sounds/Reinforce_Fail.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1bcfa595396a800438e9679a7a4e2fc2
+    m_Address: Assets/Sounds/Swipe01.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0445c9d33bca3c1418e0c92d76e94f1b
+    m_Address: Assets/Sounds/Coin.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 350b05b422999834eb75fcdb83d3a569, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 143a8d02e9978f3418123a6f53da9454, type: 2}
+    - {fileID: 11400000, guid: 10b6e864068703d44bf37277ff84bc0b, type: 2}

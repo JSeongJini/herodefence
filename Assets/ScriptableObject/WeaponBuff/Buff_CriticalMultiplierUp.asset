@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2c35c828c65e8843a8bf7fef57a4f93, type: 3}
+  m_Name: Buff_CriticalMultiplierUp
+  m_EditorClassIdentifier: 
+  type: 5
+  value: 0.2
+  sprite: {fileID: 21300000, guid: 24eb47eb2b6568546bb92d03fd545410, type: 3}
+  description: "\uCE58\uBA85\uD0C0\uBC30\uC728 20% \uC99D\uAC00"

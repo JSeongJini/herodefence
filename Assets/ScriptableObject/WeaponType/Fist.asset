@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eeff828afc8f8540a2ccf1f5898c604, type: 3}
+  m_Name: Fist
+  m_EditorClassIdentifier: 
+  damage: 4
+  rate: 15
+  strike: 2
+  penetrate: 0
+  critical: 1
+  criticalMul: 1
+  additionalSkillChance: 0
+  additionalSkillDamage: 0
+  additionalSkillRange: 0
+  weaponName: "\uB9E8\uC8FC\uBA39"
+  description: "\uB9E8\uC8FC\uBA39\uC744 \uBE60\uB974\uAC8C \uD718\uB458\uB7EC \uC801\uC744
+    \uACF5\uACA9\uD55C\uB2E4. \uACF5\uACA9 \uC18D\uB3C4\uC640 \uD0C0\uACA9 \uD69F\uC218\uC5D0
+    \uC774\uC810\uC774 \uC788\uB2E4."
+  prefab: {fileID: 0}
+  controller: {fileID: 9100000, guid: 3a24fcaad7718814a9208fa58705b495, type: 2}
+  sprite: {fileID: 21300000, guid: 58e0e4abab004c046a044946720573cf, type: 3}
+  gripType: 0

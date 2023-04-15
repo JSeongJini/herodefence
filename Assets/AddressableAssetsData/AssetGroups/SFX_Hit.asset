@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SFX_Hit
+  m_EditorClassIdentifier: 
+  m_GroupName: SFX_Hit
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 42e63b8f143adaf489855c9f606c7b34
+  m_SerializeEntries:
+  - m_GUID: 30d18018debacfd449bc9f79bbb3f680
+    m_Address: Assets/Sounds/HitEffect01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e948801b108856943abf70694fc01e0b
+    m_Address: Assets/Sounds/HitEffect02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 82e1a59a90c4c81438d7ea98f7f93f52
+    m_Address: Assets/Sounds/HitEffect03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 350b05b422999834eb75fcdb83d3a569, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f9dd17016bb4a694b841be515aaebad6, type: 2}
+    - {fileID: 11400000, guid: 6a3ed66afc4ad354a8dc0c6c69118fff, type: 2}

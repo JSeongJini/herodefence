@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefab_Monster
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefab_Monster
+  m_Data:
+    m_SerializedData: []
+  m_GUID: e9c43fe92ee76c040b1a7bda38a3ae54
+  m_SerializeEntries:
+  - m_GUID: 07bf96baf0e58c7418af90a2e1aa5770
+    m_Address: Monsters/Level_1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 7160a63412f14244390622f4d6a6f939
+    m_Address: Monsters/Level_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 3573dd9e7c5f0ee448477844da82739e
+    m_Address: Monsters/Level_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 7c28f84fbc16e9f4e93ca2e6f970f787
+    m_Address: Monsters/Level_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 8da2b173a767adf47ba5b9f875946b21
+    m_Address: Monsters/Level_5
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: f210edd042c8f1a489393b2b16693f6d
+    m_Address: Monsters/Level_6
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: bde8b56bb5137c943a955714fa363c10
+    m_Address: Monsters/Level_7
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: cc6cac04ddd3a8b46b3973cc8168a2cc
+    m_Address: Monsters/Level_8
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: e8a97e166bff9ef4eacc76e16d07cbd0
+    m_Address: Monsters/Level_9
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 281e9adfa0a0db24ab4abd782c0ae5ad
+    m_Address: Monsters/Level_10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: c5e5a0abc35748144ab674b6b58bff7d
+    m_Address: Monsters/Level_11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 885f01a9586e23148a4aad9627e15138
+    m_Address: Monsters/Level_12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: fea01c148473695448da8720d613bf9c
+    m_Address: Monsters/Level_13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: bb37c920b5c00b644866532536881098
+    m_Address: Monsters/Level_14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 35fc303947d8ee4418c218cc040a969a
+    m_Address: Monsters/Level_16
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: cf1cf047510cc48429771a9eae814bc1
+    m_Address: Monsters/Level_17
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 8fe117c6287fc6749937071e21e6b680
+    m_Address: Monsters/Level_18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 4e87d82115c17ca46a9a9b741d94bf98
+    m_Address: Monsters/Level_19
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: f1389450a99f9894697073fc191dcfe7
+    m_Address: Monsters/Level_20
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 32413373e01f0d345a22fb92520c05cf
+    m_Address: Monsters/Level_15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 2102e85ef6c6f574394661864fb30946
+    m_Address: Monsters/Level_21
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 69f6d32b1f69d5c4a92a16e702f07461
+    m_Address: Monsters/Level_22
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 4a15ef1425385044c8d813aca9542be1
+    m_Address: Monsters/Level_23
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 2fd7458625406cb44939fa93671102cd
+    m_Address: Monsters/Level_24
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: ad3044837e10c41449c6f1de158ee492
+    m_Address: Monsters/Level_25
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 46ab16334042f42408a63e3f08f95558
+    m_Address: Monsters/Level_26
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 57c811addd611454193ff184f4f931fd
+    m_Address: Monsters/Level_27
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 1c71e0dbd42fa534a92326b1853d3665
+    m_Address: Monsters/Level_28
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 7e57b30a727db04468963f7e3afd1f78
+    m_Address: Monsters/Level_29
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 571fad9c737a8744bb0b8a3ff49c2594
+    m_Address: Monsters/Level_30
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 52a95f4e30935a3418981ce5aa50d5fe
+    m_Address: Monsters/Level_31
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 565315f52da27234cac371a7851ab557
+    m_Address: Monsters/Level_32
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: db6c0a59b59c067419553a10b7f6c139
+    m_Address: Monsters/Level_33
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: e426aab1b307d904e9601856def0e419
+    m_Address: Monsters/Level_35
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 9bbc7aae6f1340a449f01f7e84039ad7
+    m_Address: Monsters/Level_34
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 5277ced969c70c246a5300f762ffcc9d
+    m_Address: Monsters/Level_36
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: 43724df2a75b3624aa988706d2cd44a8
+    m_Address: Monsters/Level_37
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: fa1acdda7763a874b918ab41c8348e95
+    m_Address: Monsters/Level_38
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: ba1246f215b319149b8828a9ee040108
+    m_Address: Monsters/Level_39
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  - m_GUID: ea9deb943f73c7a4a94bf793cc53e566
+    m_Address: Monsters/Level_40
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Monster
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 350b05b422999834eb75fcdb83d3a569, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: df81a3470af153d449a350953b7ee6aa, type: 2}
+    - {fileID: 11400000, guid: be2ce2016a43ee54eaa18b0c035f2089, type: 2}

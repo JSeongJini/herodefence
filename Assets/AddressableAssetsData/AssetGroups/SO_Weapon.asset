@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SO_Weapon
+  m_EditorClassIdentifier: 
+  m_GroupName: SO_Weapon
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7709f8ffb76dbf94ab63718c3ccda4c7
+  m_SerializeEntries:
+  - m_GUID: 94324c34bdaa2a64e9e4aece3532b1af
+    m_Address: Assets/ScriptableObject/WeaponType/Bow.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6d1edd3a880dae8409d7f566b01a5005
+    m_Address: Assets/ScriptableObject/WeaponType/Staff.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cd04a737501852c4dbc4f5894fbc2911
+    m_Address: Assets/ScriptableObject/WeaponType/Sword.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 350b05b422999834eb75fcdb83d3a569, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 077d87347b2d6b646baeb207a23911b9, type: 2}
+    - {fileID: 11400000, guid: 53f49eca087cb62439ba7e7808f0bb6b, type: 2}

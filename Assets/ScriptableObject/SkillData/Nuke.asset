@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d80ce226eb80b34e8a16ff38b32b63f, type: 3}
+  m_Name: Nuke
+  m_EditorClassIdentifier: 
+  id: 1
+  skillName: Nuke
+  description: "\uACF5\uACA9 \uC2DC <color=green>3.5%</color> \uD655\uB960\uB85C
+    \uB300\uC0C1\uC744 \uD5A5\uD574 \uD575\uD3ED\uD0C4\uC744 \uB5A8\uC5B4\uD2B8\uB824
+    <color=orange>6</color>\uBC94\uC704\uC5D0 \uACF5\uACA9\uB825\uC758 <color=red>800%</color>\uC758
+    \uD070 \uB370\uBBF8\uC9C0\uB97C \uC785\uD78C\uB2E4.  \uD53C\uD574\uB97C \uC785\uC740
+    \uB300\uC0C1\uC740 <color=yellow>10\uCD08</color>\uAC04 <color=blue>\uBC29\uC5B4\uB825</color>\uC774
+    <color=blue>2</color> \uAC10\uC18C\uD55C\uB2E4."
+  sprite: {fileID: 21300000, guid: 9327f66023617a042887283d1b849e50, type: 3}
+  prefab: {fileID: 8585655641520821338, guid: 28ce45738f392544a8c6040419e20a22, type: 3}
+  sfx: {fileID: 8300000, guid: bdaf1364bab112a48bb7d4dee3ee99fd, type: 3}
+  chance: 3.5
+  damageMultiplier: 8
+  radius: 6

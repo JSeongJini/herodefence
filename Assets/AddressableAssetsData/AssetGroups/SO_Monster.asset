@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SO_Monster
+  m_EditorClassIdentifier: 
+  m_GroupName: SO_Monster
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 31392195d4d37d24a860c4bd83f4e36a
+  m_SerializeEntries:
+  - m_GUID: c8e294ff73b89294688b051c628e6ac0
+    m_Address: Assets/ScriptableObject/MonsterStat/Level1.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 175cf4fddef9a7c4c87fb3db100d8e89
+    m_Address: Assets/ScriptableObject/MonsterStat/Level2.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c116db2bfc76ede40b7971527c1a8109
+    m_Address: Assets/ScriptableObject/MonsterStat/Level3.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d496b6260e771004593cd0ab259533b0
+    m_Address: Assets/ScriptableObject/MonsterStat/Level4.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b63ab04213ae56b44bc8b22cfd4df219
+    m_Address: Assets/ScriptableObject/MonsterStat/Level5.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 53417c7aacfc7e5459ec34627e46113a
+    m_Address: Assets/ScriptableObject/MonsterStat/Level6.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b367f7868f3598249adeec3f65ac1380
+    m_Address: Assets/ScriptableObject/MonsterStat/Level7.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e1110ee8a0108874dbcceadf318ba056
+    m_Address: Assets/ScriptableObject/MonsterStat/Level8.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3272a2ffda41bc9439dccd4410b0cd07
+    m_Address: Assets/ScriptableObject/MonsterStat/Level9.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6144bf96c90dddc46a60a5e20cfa2711
+    m_Address: Assets/ScriptableObject/MonsterStat/Level10.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a6cdf04be5bd2584a9495a1036c3a9ee
+    m_Address: Assets/ScriptableObject/MonsterStat/Level11.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6b3bc3f4e92825240b6c95e19630e8a9
+    m_Address: Assets/ScriptableObject/MonsterStat/Level12.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c03549ead35f6f04c83b300755d26333
+    m_Address: Assets/ScriptableObject/MonsterStat/Level13.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9a1f4f713082afb4cb268047d0e9a52f
+    m_Address: Assets/ScriptableObject/MonsterStat/Level14.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fa3ea491896525543808d324a25b2c19
+    m_Address: Assets/ScriptableObject/MonsterStat/Level15.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d43235c571ff65644a195229e3f503a7
+    m_Address: Assets/ScriptableObject/MonsterStat/Level16.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cee98a3b198b6c44c990026e4b0cdd8c
+    m_Address: Assets/ScriptableObject/MonsterStat/Level17.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1e7ec4b00ae7ec0478933c481d292cc1
+    m_Address: Assets/ScriptableObject/MonsterStat/Level18.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 141954afc94db4c499bb3e98e6b0793a
+    m_Address: Assets/ScriptableObject/MonsterStat/Level19.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1b2ba3c830478cc46a8cc7bb4e0797b8
+    m_Address: Assets/ScriptableObject/MonsterStat/Level20.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 350b05b422999834eb75fcdb83d3a569, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4a14d64ddd2725d4aa5797d1b352ae1c, type: 2}
+    - {fileID: 11400000, guid: 03398a97ba07d1b47bb7374958fb13cc, type: 2}

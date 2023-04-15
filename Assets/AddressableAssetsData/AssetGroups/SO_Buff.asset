@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: SO_Buff
+  m_EditorClassIdentifier: 
+  m_GroupName: SO_Buff
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1042aec3459bf1d43b8f002de7b2ca71
+  m_SerializeEntries:
+  - m_GUID: 56e17c0fb4903d4468b0b879b27e32e2
+    m_Address: Assets/ScriptableObject/WeaponBuff/Buff_CriticalMultiplierUp.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 36b882d392e2ce040a8af13f3612f1c0
+    m_Address: Assets/ScriptableObject/WeaponBuff/Buff_CriticalUp.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0187a36eabeaf2749ae6e40433966d2d
+    m_Address: Assets/ScriptableObject/WeaponBuff/Buff_DamageUp.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0400c2bcad1831a43ad2f3311f8f4921
+    m_Address: Assets/ScriptableObject/WeaponBuff/Buff_PenetrateUp.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cb5aea426f28c6444a02a928e49cac0a
+    m_Address: Assets/ScriptableObject/WeaponBuff/Buff_RateUp.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 88b2011236f098342b9a6ab4373e013e
+    m_Address: Assets/ScriptableObject/WeaponBuff/Buff_StrikeUp.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 350b05b422999834eb75fcdb83d3a569, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5878b354d78cd514a9978497e57beb44, type: 2}
+    - {fileID: 11400000, guid: 713fd6a5f377838428541ffb956f0d21, type: 2}

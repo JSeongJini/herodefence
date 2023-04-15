@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefab_Stone
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefab_Stone
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b95dda565c7eac647b1be517c528c5c1
+  m_SerializeEntries:
+  - m_GUID: 90279ce474a173f4590f53cb847d1b7c
+    m_Address: Assets/Prefabs/Stones/P_StoneAdditionalChance.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 34794a7ea247d2b46b4969d76d85020f
+    m_Address: Assets/Prefabs/Stones/P_StoneAdditionalDamage.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f3693577c735a884583bfb50eef0e35f
+    m_Address: Assets/Prefabs/Stones/P_StoneAdditionalRange.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a2426e0492d03ef4db0676c95de9cee5
+    m_Address: Assets/Prefabs/Stones/P_StoneCritical.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2d827742a84d00b41b1ec425b3125f48
+    m_Address: Assets/Prefabs/Stones/P_StoneCriticalMul.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6ee825c7949bc8d4289d1512c7af9127
+    m_Address: Assets/Prefabs/Stones/P_StoneDamage.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e9f7dff4b8cd90c48962c2b721ea05e4
+    m_Address: Assets/Prefabs/Stones/P_StonePenetrate.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9c38db46f57fc40439853cc269a0cb06
+    m_Address: Assets/Prefabs/Stones/P_StoneRate.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ee1ab9bc18047dd4996802a31e3d6879
+    m_Address: Assets/Prefabs/Stones/P_StoneStrike.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 350b05b422999834eb75fcdb83d3a569, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9aa010ee9cf8bed42a9c6e4f50100a39, type: 2}
+    - {fileID: 11400000, guid: 8c24b15575c638a4b84939c3a5f4cc1a, type: 2}
