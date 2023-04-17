@@ -32,13 +32,13 @@ UI 컴포넌트에 UI Path 컴포넌트를 달아주고, Path를 입력하면
 private static IDictionary<string, UIPath> views = new Dictionary<string, UIPath>();
 ```
 
-문자열을 키값으로 하는 딕셔너리에 등록되고 프로젝트 전역에서 문자열만으로 해당 UI를 참조할 수 있다
+문자열을 키값으로 하는 딕셔너리에 등록되고 프로젝트 전역에서 문자열만으로 해당 UI를 참조할 수 있다.
 
 ```C#
 UIContext.GetUIByPath("BossAlert", (result) => {
-                BossAlert alert = result as BossAlert;
-                alert.Show();
-            });
+    BossAlert alert = result as BossAlert;
+    alert.Show();
+});
 ```
 
 - 장점   
@@ -48,8 +48,42 @@ UIContext.GetUIByPath("BossAlert", (result) => {
 
 
 #### 구글 스프레드시트를 데이터베이스로 활용
+게임의 백엔드는 다양한 방법으로 구현할 수 있지만, 구글 스프레드 시트와 Apps Script를 활용하여 데이터베이스를 구축할 수 있는 방법을 알게되어 시도해 보았다.
+
+![googlesheet](https://user-images.githubusercontent.com/70570420/232447821-db44345b-6834-4735-9005-b3d00e613682.png)
+
+- 장점   
+ 과금 걱정없는 무료이다.   
+ 컴퓨터를 켜놓지 않아도 된다.  
+ 게임이 아니더라도, 여러 곳에서 사용할 수 있을 것 같다.
+ <br/>
 
 
+#### 다양한 해상도에 적응하기 위한 카메라와 캔버스 조정
+모바일 기기의 해상도는 다양한데, 해상도 문제로 인해 플레이에 지장을 끼칠 수 있다. 어떤 해상도에서 플레이 되더라도, 게임에 지장이 없도록 직교카메라의 사이즈를 조절하여 보여주어야 하는 최소한의 영역을 보여주도록 보장하고, 해상도의 비율에 따라서 캔버스 스케일러의 Match값을 조정해주었다.
 
+![resolution](https://user-images.githubusercontent.com/70570420/232454182-204cc5d8-93aa-4123-b52a-2aef54098ad7.png)
+```C#
+Camera cam = Camera.main;
 
+float sizeToTargetWidth = targetWidth / (2f * cam.aspect);
+float sizeToTargetHeight = targetHeight / 2f;
+
+float size = (sizeToTargetWidth >= sizeToTargetHeight) ? sizeToTargetWidth : sizeToTargetHeight;
+
+cam.orthographicSize = size;
+```
+
+```C#
+if (!Camera.main) return;
+
+if(Camera.main.aspect > (9f / 16f))
+{
+   scaler.matchWidthOrHeight = 1f;
+}
+else
+{
+   scaler.matchWidthOrHeight = 0f;
+}
+```
 
