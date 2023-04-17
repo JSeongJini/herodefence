@@ -1,8 +1,8 @@
 # HeroDefence(2023)
-[herodefence.unitypackage](https://drive.google.com/file/d/1ZZG8nz8r75AW-PWRRvxoH5fk0SydrCO4/view?usp=share_link)
-
-[herodefence.apk](https://drive.google.com/file/d/183ud-WOYmAfYZcV_d_lEXhIj9n2IIb_n/view?usp=share_link)
-
+[유니티 패키지 herodefence.unitypackage](https://drive.google.com/file/d/1ZZG8nz8r75AW-PWRRvxoH5fk0SydrCO4/view?usp=share_link) (어드레서블 패키지 임포트 필요)   
+[프로젝트 압축 herodefence.zip](https://drive.google.com/file/d/1NrU-DGGyGGWRqD6lahZ5h21eFyx6w2GV/view?usp=share_link)   
+[APK herodefence.apk](https://drive.google.com/file/d/183ud-WOYmAfYZcV_d_lEXhIj9n2IIb_n/view?usp=share_link)
+   
    
 ### 프로젝트 소개
 - HeroDefence는 포트폴리오겸 개인 역량을 위해 공부하며 만든 프로젝트입니다.
