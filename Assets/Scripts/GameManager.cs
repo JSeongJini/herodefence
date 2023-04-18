@@ -27,6 +27,8 @@ public class GameManager : Singlton<GameManager>
             UIContext.GetUIByPath("SettingPanel", (result) => {
                 MyUIBase panel = result as MyUIBase;
                 panel.Show();
+
+                Time.timeScale = 0f;
             });
         }
     }

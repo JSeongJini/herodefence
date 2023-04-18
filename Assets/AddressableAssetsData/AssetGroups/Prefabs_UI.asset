@@ -49,6 +49,22 @@ MonoBehaviour:
     m_Address: WaitProgress
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 2211299342ce33442b2eb9b15adfba01
+    m_Address: SettingPanel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 91e496356bd259e42aeaf39046d54b9d
+    m_Address: UI/P_HP_Bar
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9f47c0360d2109a499cc8c6a52b1626e
+    m_Address: P_Damage_TMP
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 917ba665fe07b454395e88f1b4c7e8a6
+    m_Address: P_HitEffect
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 350b05b422999834eb75fcdb83d3a569, type: 2}
   m_SchemaSet:

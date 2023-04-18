@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Fonts
+  m_EditorClassIdentifier: 
+  m_GroupName: Fonts
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 469d3c952765be24197cc927f9db5261
+  m_SerializeEntries:
+  - m_GUID: 4a99289b6a85a7c4face2a7f8bc31818
+    m_Address: Assets/Graphics/Font/Room No.703.ttf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 62ab2b83d7fc8784b880f90de4982f14
+    m_Address: Assets/Graphics/Font/esamanru Medium.ttf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 67673c41312a3c442a1f1973b0c38ef5
+    m_Address: Assets/Graphics/Font/esamanru Bold.ttf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b52bb07b1eedd594bab79ed64c22cc6b
+    m_Address: Assets/Graphics/Font/esamanru Bold SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 350b05b422999834eb75fcdb83d3a569, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 69f95681f7f34c54c80c673832a0fcf4, type: 2}
+    - {fileID: 11400000, guid: f51499a6f7124fe408187474f370c79e, type: 2}

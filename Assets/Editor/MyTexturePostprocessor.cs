@@ -10,7 +10,7 @@ class MyTexturePostprocessor : AssetPostprocessor
         {
 
             TextureImporter textureImporter = (TextureImporter)assetImporter;
-            textureImporter.isReadable = false;
+            //textureImporter.isReadable = false;   //메모리프로파일러 문제 발생
             textureImporter.mipmapEnabled = false;
             textureImporter.maxTextureSize = 512;
 
