@@ -23,6 +23,35 @@
 
 
 ### 시도한 것
+#### 다양한 해상도에 적응하기 위한 카메라와 캔버스 조정
+모바일 기기의 해상도는 다양한데, 해상도 문제로 인해 플레이에 지장을 끼칠 수 있다. 어떤 해상도에서 플레이 되더라도, 게임에 지장이 없도록 직교카메라의 사이즈를 조절하여 보여주어야 하는 최소한의 영역을 보여주도록 보장하고, 해상도의 비율에 따라서 캔버스 스케일러의 Match값을 조정해주었다.
+
+![resolution](https://user-images.githubusercontent.com/70570420/232454182-204cc5d8-93aa-4123-b52a-2aef54098ad7.png)
+```C#
+Camera cam = Camera.main;
+
+float sizeToTargetWidth = targetWidth / (2f * cam.aspect);
+float sizeToTargetHeight = targetHeight / 2f;
+
+float size = (sizeToTargetWidth >= sizeToTargetHeight) ? sizeToTargetWidth : sizeToTargetHeight;
+
+cam.orthographicSize = size;
+```
+
+```C#
+if (!Camera.main) return;
+
+if(Camera.main.aspect > (9f / 16f))
+{
+   scaler.matchWidthOrHeight = 1f;
+}
+else
+{
+   scaler.matchWidthOrHeight = 0f;
+}
+```
+<br/>
+
 #### 문자열로 UI요소를 식별하는 시스템   
 유니티 UGUI로 UI 작업을 하다보면, UI 컴포넌트들을 제어하기위해 상위 객체에서 참조를 가져야 하는 경우가 많다. 이 때, 인스펙터창에서 드래그앤드롭으로 참조를 연결해주게 되는데 개발자의 실수로 참조를 연결해주지 않거나, UI를 수정하다보면 이 참조가 깨지는 경우가 빈번하다. 이 문제를 피하기 위해서 path라 불리는 문자열로 UI 컴포넌트들을 식별하는 방법을 고안해보았다.
 
@@ -60,31 +89,5 @@ UIContext.GetUIByPath("BossAlert", (result) => {
  <br/>
 
 
-#### 다양한 해상도에 적응하기 위한 카메라와 캔버스 조정
-모바일 기기의 해상도는 다양한데, 해상도 문제로 인해 플레이에 지장을 끼칠 수 있다. 어떤 해상도에서 플레이 되더라도, 게임에 지장이 없도록 직교카메라의 사이즈를 조절하여 보여주어야 하는 최소한의 영역을 보여주도록 보장하고, 해상도의 비율에 따라서 캔버스 스케일러의 Match값을 조정해주었다.
 
-![resolution](https://user-images.githubusercontent.com/70570420/232454182-204cc5d8-93aa-4123-b52a-2aef54098ad7.png)
-```C#
-Camera cam = Camera.main;
-
-float sizeToTargetWidth = targetWidth / (2f * cam.aspect);
-float sizeToTargetHeight = targetHeight / 2f;
-
-float size = (sizeToTargetWidth >= sizeToTargetHeight) ? sizeToTargetWidth : sizeToTargetHeight;
-
-cam.orthographicSize = size;
-```
-
-```C#
-if (!Camera.main) return;
-
-if(Camera.main.aspect > (9f / 16f))
-{
-   scaler.matchWidthOrHeight = 1f;
-}
-else
-{
-   scaler.matchWidthOrHeight = 0f;
-}
-```
 
